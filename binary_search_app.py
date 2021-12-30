@@ -1,3 +1,5 @@
+# Binary Search in Python - Iterative Approach
+# Getting the input list and search element
 n = int(input('Enter values : '))
 lst = []
 for i in range(0,n):
@@ -11,6 +13,7 @@ l = lst[0]
 r = lst[n-1]
 m = int((l + r)/2)
 
+# Actual logic for Binary Search
 counter = 0
 while(m != t):
     counter = counter + 1
